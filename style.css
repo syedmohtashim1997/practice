@@ -1,0 +1,388 @@
+.maindiv{
+    background-color: cornflowerblue;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media only screen and (max-width:900px){
+  .maindiv{
+    flex-direction: column;
+  }
+}
+
+.logos .a1
+{
+
+    float: left;
+    padding: 4px;
+   list-style-type: none;
+}
+.youtube{
+    width:50px;
+    height: 40px;
+    padding: 5px;
+}
+.gmail{
+    width:50px;
+    height: 40px;
+    padding: 5px;
+}
+.facebook{
+    width:50px;
+    height:40px;
+    padding: 5px;
+}
+.whatsapp{
+    width:50px;
+    height: 40px;
+    padding: 5px;
+}
+.twitter{
+    width:50px;
+    height: 40px;
+    padding: 5px;
+}
+.ul1 li{
+  list-style-type:none;
+}
+.para
+{
+    
+    padding: 10px;
+    width:450px;
+    font-size: 14px;
+    color:white;
+    font-weight: bold;
+}
+.buttons
+{
+       padding: 16px;
+    cursor: pointer;
+}
+
+.nav .ul1 .act .anch{
+  background-color: #346de0;
+  color: aliceblue;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+.nav .ul1 .acte .ancher{
+  
+ 
+  padding: 10px;
+  text-align: center;
+}
+.nav .ul1 .acte:hover .ancher{
+  background-color: #346de0;
+  color: aliceblue;
+  border-radius: 15px;
+}
+
+.image{
+  width: 100%;
+  height:500px;
+}
+.hov:hover{
+  background-color: #3884ff;
+}
+.maincont{
+  background-color: #346de0;
+ 
+}
+.sm{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.img{
+  height:30px;
+  margin-left: 45px;
+}
+.as{
+  margin-left: 40px;
+  box-sizing: border-box;
+  line-height: 10px;
+  
+}
+.asd{
+  text-align: center;
+}
+.merge{
+  text-align: center;
+  
+}
+.heading{
+color: #346de0;
+}
+.anothercolor{
+  color: #00ff55;
+}
+.par{
+ 
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
+  background-color: white;
+  color: black;
+}
+.qw{
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.sp1{
+  color: #00ff55;
+}
+.img2{
+    width:1300px;
+    height: auto;
+}
+.second{
+    background-color: cornflowerblue;
+    width:1300px;
+    height:150px;
+    text-align: center;
+}
+
+.setimg{
+    width:50px;
+    height:25px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 80px;
+    
+}
+.usesec{
+    width:1300px;
+    float: left;
+    background-color:royalblue;
+}
+      .num{
+        margin: 8px auto 8px auto;
+     font-size: 40px;
+      }
+      .green{
+          color: rgb(66, 94, 15);
+      }
+      .same{
+          text-align: center;
+      }
+      .int{
+        text-align: center;
+      }
+      .adv_img{
+        width: 25%;
+       height: 20%;
+      }
+      /* .sixbox{
+        background-color: greenyellow;
+      } */
+      .control{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+       flex-direction: row;
+        flex-wrap: wrap;
+        
+      }
+      .control div{
+        width: 23.33%;
+        margin: 3% 3%;
+        height: auto;
+        
+       padding-top: 2%;
+        text-align: center;
+       background-color:lightgray;
+      }
+      .control div h3{
+        color:#3884ff ;
+        margin-top: 5%;
+      }
+      @media only screen and (max-width:1000px){
+            .control{
+                flex-direction: column;
+              
+            }
+            .control div{
+                width: auto;
+                height: auto;
+                /* margin-left: 10%;
+           padding-top: 10%;
+                text-align: center; */
+               
+      }
+      }
+     
+      .mainsection{
+        background-color:aqua;
+      }
+      .container{
+        width: 100%;
+        height:auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .an{
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .mis_img{
+        width:50px;
+        height:50px;
+        text-align: center;
+      }
+      .tab{
+      
+        width: 550px;
+        height: auto;
+        box-sizing: border-box;
+         
+      } 
+
+
+      .fluid{
+        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+      }
+      .merge1{
+      float: left;
+        width: 400px;
+        height: auto;
+        
+      
+      }
+      .merge2{
+        float: left;
+        width: 400px;
+        height: auto;
+        
+      
+      }
+      
+      .im1{
+        width: auto;
+        height: auto;
+       
+      
+      }
+      .im2{
+        width: auto;
+        height: auto;
+      
+      }
+      .bl{
+      
+        width: 100%;
+        text-align: center;
+      }
+
+
+      .top{
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }      
+      .blue{
+        color: blue;
+      }
+   
+    .img_hov{
+    width: 100%;
+    height: auto;
+    margin: 5% 0 5% 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .img_hov_1, .img_hov_2, .img_hov_3, .img_hov_4{
+      width: 25%;
+      height: auto;
+        overflow: hidden; 
+        float: left;
+
+    }
+    .imghov{
+      width: 100%;
+    height: auto;
+        transform: scale(1);
+    }
+    .imghov:hover{
+      transform: scale(1.5);
+      transition: transform 0.4s;
+    }
+    
+    footer{
+      width: 100%;
+      height: auto;
+      background-color:darkslateblue;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .f1, .f2, .f3{
+      width: 33.333%;
+      height: 100%;
+      float: left;
+      padding-top: 6%;
+      padding-left: 3%;
+    }
+    .icon{
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+    }
+    .f1 p{
+      padding-top: 10px;
+      font-size: 0.9em;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .prog{
+      width: 90%;
+      height: 3px;
+      background-color: #00ff55;
+    }
+    .f3 li{
+      list-style-type: none;
+      display: inline;
+    
+    }
+    .a2{
+
+      width:10px;
+      height: 30px;
+      border-radius: 20px;
+
+    }
+    .end{
+      width: 100%;
+      height: 45px;
+      background-color: #346de0;
+      color: white;
+      padding: 12px;
+      font-size: 12px;
+      text-align: center;
+    }
+
+  @media(max-width:700px){
+  .footer{
+    flex-direction: column;
+    width:700px;
+  }
+  
+} 
